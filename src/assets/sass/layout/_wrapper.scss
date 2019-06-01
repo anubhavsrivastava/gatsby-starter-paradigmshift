@@ -605,6 +605,9 @@
 					body.is-preload & {
 						opacity: 0;
 					}
+					.main-body.is-preload & {
+						opacity: 0;
+					}
 				}
 
 			// Sections (top level).
@@ -635,6 +638,18 @@
 								}
 							}
 
+							.main-body.is-preload & {
+								opacity: 0;
+
+								> header {
+									transform: translateY(1rem);
+								}
+
+								> .content {
+									transform: translateY(-1rem);
+								}
+							}
+
 							@include breakpoint('<=large') {
 								> header {
 									> * {
@@ -643,6 +658,21 @@
 								}
 
 								body.is-preload & {
+									> header {
+										transform: none;
+
+										> * {
+											transform: translate(-0.5rem);
+											opacity: 0;
+										}
+									}
+
+									> .content {
+										transform: none;
+									}
+								}
+
+								.main-body.is-preload & {
 									> header {
 										transform: none;
 
