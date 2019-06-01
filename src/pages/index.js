@@ -211,7 +211,7 @@ const IndexPage = () => (
           </p>
           <ul className="actions">
             <li>
-              <Link tp="/Elements" className="button primary large">
+              <Link to="/Elements" className="button primary large">
                 Goto Elements Page
               </Link>
             </li>
