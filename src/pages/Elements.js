@@ -1,7 +1,9 @@
 import React from 'react';
 
 import Layout from '../components/Layout';
- 
+import pic04 from '../assets/images/gallery/fulls/04.jpg';
+import pic05 from '../assets/images/gallery/fulls/05.jpg';
+
 const IndexPage = () => (
   <Layout>
 
@@ -301,21 +303,21 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 							<h5>Fit</h5>
 							<div className="box alt">
 								<div className="row gtr-uniform gtr-50">
-									<div className="col-12"><span className="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
-									<div className="col-4"><span className="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
-									<div className="col-4"><span className="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
-									<div className="col-4"><span className="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
-									<div className="col-4"><span className="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
-									<div className="col-4"><span className="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
-									<div className="col-4"><span className="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
-									<div className="col-4"><span className="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
-									<div className="col-4"><span className="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
-									<div className="col-4"><span className="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
+									<div className="col-12"><span className="image fit"><img src={pic04} alt="" /></span></div>
+									<div className="col-4"><span className="image fit"><img src={pic04} alt="" /></span></div>
+									<div className="col-4"><span className="image fit"><img src={pic04} alt="" /></span></div>
+									<div className="col-4"><span className="image fit"><img src={pic04} alt="" /></span></div>
+									<div className="col-4"><span className="image fit"><img src={pic04} alt="" /></span></div>
+									<div className="col-4"><span className="image fit"><img src={pic04} alt="" /></span></div>
+									<div className="col-4"><span className="image fit"><img src={pic04} alt="" /></span></div>
+									<div className="col-4"><span className="image fit"><img src={pic04} alt="" /></span></div>
+									<div className="col-4"><span className="image fit"><img src={pic04} alt="" /></span></div>
+									<div className="col-4"><span className="image fit"><img src={pic04} alt="" /></span></div>
 								</div>
 							</div>
 							<h5>Left &amp; Right</h5>
-							<p><span className="image left"><img src="images/pic05.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-							<p><span className="image right"><img src="images/pic05.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+							<p><span className="image left"><img src={pic05} alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+							<p><span className="image right"><img src={pic05} alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
 						</section>
 
 					</div>
