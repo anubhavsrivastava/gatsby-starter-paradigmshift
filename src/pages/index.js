@@ -9,6 +9,7 @@ import heroImage from '../assets/images/pic01.jpg';
 import pic2 from '../assets/images/pic02.jpg';
 import Gallery from '../components/Gallery';
 import ContactForm from '../components/ContactForm';
+import { Link } from 'gatsby';
 
 const img_set_1 = [
   {
@@ -205,21 +206,20 @@ const IndexPage = () => (
         </header>
         <div className="content">
           <p>
-            <strong>Proin tempus feugiat</strong> sed varius enim lorem
-            ullamcorper dolore aliquam aenean ornare velit lacus, ac varius enim
-            lorem ullamcorper dolore.
+            <strong>Elements</strong> This starter contains all elements for a
+            page. Check it out
           </p>
           <ul className="actions">
             <li>
-              <a href="/#" className="button primary large">
-                Get Started
-              </a>
+              <Link tp="/Elements" className="button primary large">
+                Goto Elements Page
+              </Link>
             </li>
-            <li>
+            {/* <li>
               <a href="/#" className="button large">
                 Learn More
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
       </section>
